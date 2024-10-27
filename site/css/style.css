@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Anonymous Pro", monospace;
+}
+body{
+    background-color: #0E0F22;
+}
+header{
+    background-color: #30355F;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    position: fixed;
+    margin-top: -100px;
+    z-index: 2;
+}
+#navbar a:hover{
+    transform: scale(1.09);
+
+}
+header a{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
+header a:hover{
+    color: white;
+    transform: scale(1.02);
+    
+}
+
+main{
+    color: white;
+    margin-left: 15%;
+    margin-top: 100px;
+    font-size: 30px;
+    position: relative;
+}
+#txt1_main{
+    font-size: 27px;
+    gap: 5px;
+    width: 740px;
+    height: 400px; 
+}
+
+hr{
+    width: 650px;
+}
+main img{
+    margin-left: 800px;
+    top: 0;
+    position: absolute;
+    border-radius: 45px;
+}
+#tingimentos{
+    color: white;
+    margin-left: 10%;
+    margin-top: 80px;
+    font-weight: 300;
+    position: relative;
+    border-radius: 45px;
+
+}
+#tingimentos h1{
+    font-weight: 800;
+    font-size: 80px;
+    color: #6773FF;
+}
+#tingimentos h4{
+    font-size: 27px;
+    width: 740px;
+    height: 400px;
+}
+#tingimentos img {
+    border-radius: 50px;
+    gap: 0px;
+    margin-left: 3.4%;
+    width:707px;
+    height:602px;
+}
+#imgting{
+    position: absolute;
+    top: 0;
+    left: 800px;
+    border-radius: 3%;
+}
+#lavagem{
+    position: relative;
+    margin-left: 50%;
+    color: white;
+    font-size: 27px;
+    width: 740px;
+    height: 400px;  
+}
+#lavagem h1{
+    font-weight: 800;
+    font-size: 80px;
+    color: #6773FF;
+}
+#imglava{
+    position: absolute;
+    margin-left: 4%;
+    border-radius: 50px;
+}
+#imglava img{
+    border-radius: 50px;
+    margin-top: 150px;
+}
+#cortinas{
+    position: relative;
+    color: white;
+    margin-left: 10%;
+    margin-top: 410px;
+    font-size: 27px;
+    border: 9px 9px solid black;
+    width: 740px;
+    height: 400px;
+}
+#cortinas h1{
+    display: flex;
+    font-weight: 800;
+    font-size: 80px;
+    color: #6773FF;
+    
+}
+#cortinas img{
+    position: absolute;
+    margin-left: 111%;
+    border-radius: 50px; 
+    margin-top: -280px;
+}
+#couro{
+    position: relative;
+    color: white;
+    font-size: 27px;
+    margin-left: 50%;
+    margin-top: 25%;
+}
+#couro h1{
+    font-weight: 800;
+    font-size: 80px;
+    color: #6773FF;
+}
+#imgcouro img{
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 25%;
+    border-radius: 50px;
+}
+#loc{
+    color: #6773FF;
+    margin-top: 380px;
+    margin-left: 41%;
+    font-size: 80px;
+    font-weight: 800;
+}
+iframe{
+    margin-top: 40px;
+    margin-left: 9% ;
+    width: 85%;
+    border-radius: 50px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 640px){
+    body{
+        width:640px;
+    }
+    header{
+        background-color: #30355F;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;    
+        font-size: 10px;
+        width: 640px;
+    }
+    header img{
+        width: 15px;
+        height: 15px;
+    }
+    main{
+        color: white;
+        margin-left: 05%;
+        font-size: 10px;
+        position: relative;
+    }
+    hr{
+        width: 220px;
+    }
+    main h3{
+        font-size: 10px;
+        width: 250px;
+        height: 290px;
+        font-weight: 100;
+    }
+    main img{
+        width: 250px;
+        height: 290px;
+        margin-left: 340px;
+        top: 0;
+        position: absolute;
+        border-radius: 45px;
+    }
+    #tingimentos{
+        color: white;
+        margin-left: 10%;
+        margin-top: 0px;
+        font-weight: 100;
+        position: relative;
+        border-radius: 45px;
+        margin-right: 0;
+    }
+    #tingimentos h1{
+        font-size: 45px;
+        margin-top: -45%;
+    }
+    #tingimentos h4{
+        font-size: 15px;
+        width: 250px;
+        height: 290px;
+    }
+    #imgting{
+        width: 290px;
+        height: 300px;
+        position: absolute;
+        border-radius: 50px;
+        margin-left: -90%;
+        margin-top: -3%;
+    }
+    #imgting img{
+        width: 250px;
+        height: 290px;
+    }
+    #lavagem{
+        color: white;
+        margin-left: 60%;
+        margin-top: 0px;
+        font-weight: 100;
+        position: relative;
+        border-radius: 45px;
+    }
+    #lavagem h1{
+        font-size: 45px;
+        margin-top: -45%;
+    }
+    #lavagem h4{
+        font-size: 15px;
+        width: 250px;
+        height: 290px;
+    }
+    #imglava{
+        width: 290px;
+        height: 300px;
+        position: absolute;
+        border-radius: 50px;
+        margin-left: 10%;
+        margin-top: -53%;
+    }
+    #imglava img{
+        width: 290px;
+        height: 300px;
+    }
+    #cortinas{
+        color: white;
+        margin-left: 10%;
+        margin-top: 150px;
+        font-weight: 100;
+        position: relative;
+        border-radius: 45px;
+        font-size: 15px;
+        width: 250px;
+        height: 290px;
+    }
+    #cortinas h1{
+        font-size: 45px;
+        margin-top: -45%;
+    }
+    #imgcortinas{
+        width: 250px;
+        height: 290px;
+        position: absolute;
+        border-radius: 50px;
+        margin-left: -80%;
+        margin-top: -3%;
+    }
+    #imgcortinas img{
+        width: 250px;
+        height: 290px;
+        margin-left: 200%;
+    }
+    #couro{
+        color: white;
+        margin-left: 60%;
+        margin-top: 20%;
+        font-weight: 100;
+        position: relative;
+        border-radius: 45px;
+    }
+    #couro h1{
+        font-size: 45px;
+        margin-top: -45%;
+    }
+    #couro h4{
+        font-size: 15px;
+        width: 250px;
+        height: 290px;
+    }
+    #imgcouro{
+        width: 290px;
+        height: 300px;
+        position: absolute;
+        border-radius: 50px;
+        margin-left: 10%;
+        margin-top: -53%;
+    }
+    #imgcouro img{
+        margin-top: 130%;
+        width: 250px;
+        height: 290px;
+    }
+    #loc{
+        width: 250px;
+        height: 290px;
+        font-size: 45px;
+        margin-top: 0px;
+        margin-left: 120px;
+        margin-bottom: 0px;
+    }
+    iframe{
+        margin-top: -190px;
+    }
+}
